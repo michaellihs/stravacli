@@ -23,7 +23,7 @@ it will automatically direct you to step 2 below.)
 The `server` branch of this program will allow you to roll-your-own API access tokens without depending on my OpenShift web app. First, you must get your own Strava API key from: [http://www.strava.com/settings/api]
 
 With that done, you'll need to add your `client_id` and `client_secret` values to `~/.stravacli`:
-````ini
+```ini
 [API]
 client_id = 1234
 client_secret = f00f00f00f00f00f00f00f00f00f00f00f00f00f
@@ -38,9 +38,9 @@ for the implementation of this very minimal web server.)
 
 ## <a name="stravaup">Uploading activities</a>
 
-````bash
+```bash
 $ stravaup.py [OPTIONS] [activity files]
-````
+```
 
 Activity files must have TCX, GPX, or FIT extensions (or same followed
 by `.gz`). Files will be automatically compressed with `gzip` &mdash;
