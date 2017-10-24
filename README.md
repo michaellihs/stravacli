@@ -63,7 +63,7 @@ the `-T`/`--title` and `-D`/`--desc` options.
 Activities will be uploaded to Strava and opened in your desktop web
 browser (unless `-P`/`--no-popup` is specified).
 
-##Options
+## Options
 
 ```
 -h, --help            show the help message and exit
